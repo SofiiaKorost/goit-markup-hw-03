@@ -33,9 +33,24 @@ ol {
 
 
 /*Шапка*/
+.site-nav-link {
+    margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px
+}
+.site-nav-link:last-child {
+    margin-right: 0px;
+}
+
+
 
 .page-header {
+width: 1600px;
+border-bottom: 1px solid #ECECEC;
+}
 
+.header-nav {
+display: flex;
 }
 
 .logo {
@@ -46,6 +61,9 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: #2196F3;
 text-decoration: none;
+margin-right: 93px ;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .logo-dark {
     font-family: 'Raleway', sans-serif;
@@ -87,15 +105,39 @@ text-decoration: none;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: block;
 }
+
 
 .auth-nav .link:hover, 
 .auth-nav .link:focus {
     color: #2196F3 ;
 }
 
+.auth-nav li {
+    margin-right: 50px;
+}
 
+.auth-nav li:last-child{
+    margin-right: 0px;
+}
 
+.site-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 331px; ;
+}
+
+.auth-nav {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.page-header .container {
+    display: flex;
+    align-items: center;
+}
 /*Услуга*/
 
 .services {
@@ -135,6 +177,16 @@ height: 600px;
 }
 
 /*Преимущества*/
+.feature-list {
+    display: flex;
+}
+.feature-list li {
+    margin-right: 30px;
+    width: 270px;
+}
+.feature-list li:last-child {
+    margin-right: 0px;
+}
 
 .feature-title {
     font-weight: 700;
@@ -167,11 +219,22 @@ height: 600px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 
 .work {
     padding: 0px 215px 94px 215px;
 }
+.work-list {
+    display: flex;
+}
+.work-img {
+    margin-right: 30px;
+}
+.work-img:last-child {
+    margin-right: 0px;
+}
+
 
 /*Наша команда*/
 .team {
@@ -195,6 +258,8 @@ color: #757575;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-top: 94px;
+    margin-bottom: 50px;
 }
 
 .team-member-title {
@@ -207,15 +272,38 @@ color: #757575;
 }
 .team-img {
     margin-bottom: 30px;
+    width: calc(100% / 4 - 30);
+}
+.team-list li{
+    margin-right: 30px;
+}
+.team-list li:last-child{
+    margin-right: 0px;
 }
 
-
+.team-list {
+    display: flex;
+}
 
 /*Футер*/
 .page-footer {
     background-color:  #2F303A;
     width: 1600px;
     height: 250px;
+}
+.page-footer .logo {
+    padding-top: 60px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.page-footer-list li {
+    margin-bottom: 9px;
+}
+.page-footer-list li:last-child{
+    margin-bottom: 0px;
 }
 
 .page-footer-address {
@@ -266,7 +354,14 @@ color: #757575;
     letter-spacing: 0.03em;
     color: #212121;
     cursor: pointer;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    margin-right: 8px;
+    padding: 6px 22px;
+    min-width: 73px;
 }
+
 
 .opportunity-button:hover,
 .opportunity-button:focus {
@@ -276,7 +371,10 @@ color: #757575;
 
 .opportunity-list {
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
+
 
 .photos-title {
     font-weight: 700;
@@ -297,8 +395,23 @@ color: #757575;
 
 .opportunities {
     padding: 94px 215px;
+    width: 1600px;
 }
 
 .photos {
     margin-bottom: 20px;
 }
+
+.images-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-bottom: -30px;
+}
+.images-list li {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+
