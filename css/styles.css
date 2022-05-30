@@ -244,6 +244,7 @@ padding-bottom: 200px;
     background-color:  #F5F4FA;
     padding-top: 0px;
     padding-bottom: 94px;
+    padding-top: 94px;
     
 }
 
@@ -264,7 +265,6 @@ margin-top: 10px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -296,10 +296,10 @@ margin-top: 10px;
 /*Футер*/
 .page-footer {
     background-color:  #2F303A;
-    height: 250px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .page-footer .logo {
-    padding-top: 60px;
     padding-bottom: 0px;
     margin-right: 0px;
     display: block;
